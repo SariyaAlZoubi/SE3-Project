@@ -1,4 +1,4 @@
-package SE3.Calender;
+package SE3.Appointment;
 
 import java.util.Calendar;
 

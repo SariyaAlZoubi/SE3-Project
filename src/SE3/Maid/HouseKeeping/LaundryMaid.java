@@ -1,4 +1,10 @@
-package SE3.Maid.HouseKeeping;
+package SE3.Housekeeping;
 
-public class LaundryMaid {
+import SE3.Housekeeping.HousekeepingMaid;
+
+public class LaundryMaid extends HousekeepingMaid {
+    public LaundryMaid(String name, int age) {
+        super(name, age);
+        this.addSkill("Laundry");
+    }
 }
